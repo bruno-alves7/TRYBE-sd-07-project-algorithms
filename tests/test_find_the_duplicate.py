@@ -17,7 +17,7 @@ def test_validar_se_encontra_numeros_repetidos():
 
 def test_validar_se_retorna_false_quando_nao_envia_valores():
     nums = []
-    find_duplicate(nums) is False
+    assert find_duplicate(nums) is False
 
 
 def test_validar_se_retorna_false_quando_envia_string():
