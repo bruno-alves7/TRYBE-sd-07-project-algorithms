@@ -39,4 +39,5 @@ def is_anagram(first_string, second_string):
         list(first_string), 0, len(first_string) - 1
     ) == quickSort(list(second_string), 0, len(second_string) - 1)
 
+
 # https://codezup.com/quick-sort-implementation-example-in-python/
